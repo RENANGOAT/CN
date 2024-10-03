@@ -1,6 +1,5 @@
 import numpy as np
 
-# Função para decomposição LU manual
 def LUdecomp(A):
     n = A.shape[0]
     L = np.eye(n)  
